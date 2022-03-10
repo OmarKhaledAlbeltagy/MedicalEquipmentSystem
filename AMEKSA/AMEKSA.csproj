@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>c1a582f4-ee79-48db-b3cf-19f6f1dfb571</UserSecretsId>
+    <AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
+    <LangVersion>8.0</LangVersion>
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20210722210449_a8.cs" />
+    <Compile Remove="Migrations\20210722210449_a8.Designer.cs" />
+    <Compile Remove="Migrations\20210912134108_a28.cs" />
+    <Compile Remove="Migrations\20210912134108_a28.Designer.cs" />
+    <Compile Remove="Migrations\20220310163106_x9.cs" />
+    <Compile Remove="Migrations\20220310163106_x9.Designer.cs" />
+    <Compile Remove="Migrations\20220310163338_x9.cs" />
+    <Compile Remove="Migrations\20220310163338_x9.Designer.cs" />
+    <Compile Remove="Privilage\20210524084159_zzzz.cs" />
+    <Compile Remove="Privilage\20210524084159_zzzz.Designer.cs" />
+    <Compile Remove="Privilage\20210524090119_mmmm.cs" />
+    <Compile Remove="Privilage\20210524090119_mmmm.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.95.4" />
+    <PackageReference Include="MailKit" Version="3.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="MimeKit" Version="3.1.1" />
+    <PackageReference Include="morelinq" Version="3.3.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Omar\OneDrive\Desktop\pup</_PublishTargetUrl>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAADzx3gOKiCE+iGTp5Nq3h8AAAAAACAAAAAAAQZgAAAAEAACAAAABHGfyhcV7qnmCkVGuxWhaZvdQQqimz7GQt4Mb+nBdwiAAAAAAOgAAAAAIAACAAAAAYPubpedbzL7Wn3ZdG7oXbqscaoSgsNAer8pe+c3tEuyAAAACe7YVBhanCL3Xn/2gopqTut8rXpoxtS78NfgT11oaD0kAAAAC0/1KutnZPGe9yUS8AJjgoPyGMK0DvHseUG73BRoSR+UNPUeOTcpjV6e60BBxg5RwVpkOkJ6Q+n6fg5BrkCW+x</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="con">
+      <Value>Server=sql5104.site4now.net%3bDatabase=db_a74967_ameksa %3bIntegrated security=false%3bUser Id=db_a74967_ameksa_admin%3bPassword=Ameksapass%401</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
